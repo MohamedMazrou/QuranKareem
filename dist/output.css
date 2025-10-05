@@ -107,7 +107,7 @@
 }
 
 /*
-! tailwindcss v3.4.18 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -856,8 +856,88 @@ video {
   background-color: rgb(161 98 7 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[url\(\'\.\.\/public\/image\/background\.jpg\'\)\] {
+  background-image: url('../public/image/background.jpg');
+}
+
 .bg-\[url\(\'\.\.\/image\/background\.jpg\'\)\] {
   background-image: url('../image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/pu\/image\/background\.jpg\'\)\] {
+  background-image: url('../pu/image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/publi\/image\/background\.jpg\'\)\] {
+  background-image: url('../publi/image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/pub\/image\/background\.jpg\'\)\] {
+  background-image: url('../pub/image/background.jpg');
+}
+
+.bg-\[url\(\'\.\/image\/background\.jpg\'\)\] {
+  background-image: url('./image/background.jpg');
+}
+
+.bg-\[url\(\'image\/background\.jpg\'\)\] {
+  background-image: url('image/background.jpg');
+}
+
+.bg-\[url\(\'\632\638image\/background\.jpg\'\)\] {
+  background-image: url('زظimage/background.jpg');
+}
+
+.bg-\[url\(\'\/image\/background\.jpg\'\)\] {
+  background-image: url('/image/background.jpg');
+}
+
+.bg-\[url\(\'\632\/image\/background\.jpg\'\)\] {
+  background-image: url('ز/image/background.jpg');
+}
+
+.bg-\[url\(\'\638image\/background\.jpg\'\)\] {
+  background-image: url('ظimage/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\/image\/background\.jpg\'\)\] {
+  background-image: url('..//image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/image\/background\.jpg\'\)\] {
+  background-image: url('../../image/background.jpg');
+}
+
+.bg-\[url\(\'\.\/\.\/image\/background\.jpg\'\)\] {
+  background-image: url('././image/background.jpg');
+}
+
+.bg-\[url\(\'pu\/image\/background\.jpg\'\)\] {
+  background-image: url('pu/image/background.jpg');
+}
+
+.bg-\[url\(\'public\/image\/background\.jpg\'\)\] {
+  background-image: url('public/image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.pu\/image\/background\.jpg\'\)\] {
+  background-image: url('..pu/image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/public\/images\/background\.jpg\'\)\] {
+  background-image: url('../public/images/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/puimage\/background\.jpg\'\)\] {
+  background-image: url('../puimage/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/publicimage\/background\.jpg\'\)\] {
+  background-image: url('../publicimage/background.jpg');
+}
+
+.bg-\[url\(\'\/\/background\.jpg\'\)\] {
+  background-image: url('//background.jpg');
 }
 
 .bg-\[url\(\'\/public\/background\.jpg\'\)\] {
