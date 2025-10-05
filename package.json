@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "build-css": " tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "dependencies": {
+    "@tsconfig/node16": "^16.1.3",
+    "common-js": "^0.3.8",
+    "hls.js": "^1.5.20"
+  }
+}

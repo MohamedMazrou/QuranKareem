@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>بث مباشر</title>
+    <link href="output.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="output.css">
+        <link rel="stylesheet" href="all.css">
+
+    <link rel="stylesheet" href="live.css">
+    <link rel="stylesheet" href="all.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+  
+        
+</head>
+
+
+<body>
+    <!-- container top logo phone -->
+    <div id="container" class=" w-full fixed top-0 z-50 shadow-lg bg-white flex justify-center md:top-0 md:hidden">
+        <div class=" rounded-full relative top-6 bg-white shadow-lg ">
+            <a href="index.html"><img width="60px" src="../image/logo.png" alt=""> </a>
+        </div>
+
+    </div>
+  
+
+    <!-- start container navebar -->
+    <div id="container" class="fixed bottom-0 z-50  md:top-0 w-full  md:border-none h-fit ">
+        <!-- nav mobile -->
+
+        <div
+            class=" navMobile flex flex-row justify-evenly  items-center list-none md:hidden px-3 backdrop-blur flex-none transition-colors duration-500  dark:border-slate-50/[0.06] supports-backdrop-blur:bg-yellow-700 dark:bg-transparent">
+
+            <div class="text-center relative">
+                
+                <li><a class=" p-3 " href="index.html"><i id="icon" class="fa-solid fa-house fa-lg"></i></a></li>
+                <span class="text-yellow-700">الرئيسيه</span>
+            </div>
+            <!-- ______________ -->
+            <div class="text-center relative">
+                <div class="tanda"></div>
+                <li><a class=" p-3 " href=""><i id="icon" class="fa-solid fa-tv fa-lg"></i></a></li>
+                <span class="text-yellow-700 "> بث مباشر</span>
+            </div>
+            <!-- ___________________ -->
+            <div class="text-center relative">
+                <li><a class=" p-3 " href="tafsir.html"><i id="icon" class="fa-solid fa-book-open-reader fa-xl"></i></a></li>
+                <span class="text-yellow-700 text-center">تفسير</span>
+            </div>
+            <!-- _______________ -->
+            <div class="text-center relative">
+                <li><a class=" p-3 " href="radio.html"><i id="icon" class="fa-solid fa-radio fa-xl"></i></a></li>
+                <span class="text-yellow-700">الراديو</span>
+            </div>
+
+        </div>
+
+        <!-- nav pc -->
+        <div id="Parentnavbar" class="hidden md:flex flex-row justify-around  items-center shadow-lg  ">
+        <a class="cursor-pointer" href="index.html"><img width="80px" src="../image/logo.png" alt=""></a>
+
+            <div id="Navebar" class="hidden md:flex md:flex-row md:gap-7 list-none p-2 text-yellow-700 ">
+                <li><a class=" hover:bg-yellow-700 transition p-3 " href="index.html">الرئيسيه</a></li>
+                <li><a class=" hover:bg-yellow-700 transition p-3 " href="">بث مباشر</a></li>
+                <li><a class=" hover:bg-yellow-700 transition p-3 " href="tafsir.html">تفسير</a></li>
+                <li><a class=" hover:bg-yellow-700 transition p-3 " href="radio.html">راديو</a></li>
+            </div>
+        </div>
+
+    </div>
+    <!-- end container navebar -->
+
+
+    <!--start section live -->
+<section class="sectionLive flex justify-center flex-col mt-32 h-3/6 items-center">
+
+
+
+<div class="buttons flex justify-evenly p-4 w-full md:w-2/4">
+<button id="btn_sunna" class="bg-yellow-700 text-white p-2 md:p-4 ">قناة السنه النبويه</button>
+<button id="btn_quran" class="bg-yellow-700 text-white p-2 md:p-4 ">قناة القرأن الكريم</button>
+</div>
+
+<!-- liveVideo -->
+<video id="video" muted width="640" height="264"controls src="" preload="auto">
+
+</video>
+
+    </section>
+
+  
+    <!-- footer -->
+    <footer
+        class=" mt-20   flex   flex-col justify-evenly  w-full  bg-slate-950  text-white p-5 md:flex-row md:justify-around md:relative ">
+
+
+        <!-- footerText -->
+        <div class="FooterText md:w-2/4 lg:w-1/4">
+            <h2 class="mb-3 font-[800]">استمع وادرس القرأن الكريم</h2>
+            <p>
+                موقع سماع القرأن الكريم هو صدقه جاريه لدي امل ان اسهل علي الجميع سماع القرأن الكريم ودراسته وتعلمه.
+                القرأن الكريم له اسماء عديده منها القرأن الكريم والكتاب والفرقان والموعظه والذكر والنور
+            </p>
+        </div>
+        <!-- endFooterText -->
+
+        <!--Social Media -->
+        <div class="socialMedia flex flex-col gap-2 ">
+            <h2 class="mb-3 font-[800] ">تواصل معي من خلال</h2>
+
+            <a class="underline w-fit cursor-pointer" target="_blank"
+                href="https://www.facebook.com/profile.php?id=61565867642129">فيسبوك</a>
+            <a class="underline w-fit cursor-pointer" target="_blank"
+                href="https://www.instagram.com/mohamedmazrou00?igsh=MWlhem81N20wNDdmYw">انستجرام</a>
+            <a class="underline w-fit cursor-pointer" target="_blank"
+                href="https://www.linkedin.com/in/mohamed-mazrou-8ba2b0342/?trk=public_profile-settings_edit-profile-content&originalSubdomain=eg">لينكدان</a>
+            <a class="underline w-fit cursor-pointer" href="##">معلومات عنا</a>
+            <span>mohamedmazrou994@gmail.com</span>
+            <span>01098844926</span>
+
+        </div>
+        <!--end Social Media -->
+
+        <!--divNameDeveloper -->
+        <div class="w-full md:absolute bottom-0 text-center p-4">
+            <h2 class="mb-3 font-[800]">مطور الموقع</h2>
+            <p>En / Mohamed Mazrou</p>
+        </div>
+
+    </footer>
+
+
+   <!-- <script src="live.js" type="module"></script> -->
+     <script src="all.js"></script>
+        <script>
+            const linkApi = 'https://mp3quran.net/api/v3/live-tv?language=eng'
+            const btn_quran = document.getElementById('btn_quran')
+
+            onload = async function(){
+                 const getData = await fetch(linkApi)
+                const response = await getData.json()
+                if (Hls.isSupported()) {
+                    const video = document.getElementById('video')
+                    var hls = new Hls();
+                    hls.loadSource(video.src = response.livetv[0].url);
+                    hls.attachMedia(video);
+                    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                        video.play();
+                    });
+                }
+            
+            }
+
+            btn_quran.addEventListener('click', async function name() {
+                const getData = await fetch(linkApi)
+                const response = await getData.json()
+     if (Hls.isSupported()) {
+                const video = document.getElementById('video')
+                var hls = new Hls();
+                hls.loadSource(video.src = response.livetv[0].url);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                    video.play();
+                });
+            }
+            }
+            )
+
+            btn_sunna.addEventListener('click', async function name() {
+                const getData = await fetch(linkApi)
+                const response = await getData.json()
+     if (Hls.isSupported()) {
+                const video = document.getElementById('video')
+                var hls = new Hls();
+                hls.loadSource(video.src = response.livetv[1].url);
+                hls.attachMedia(video);
+                hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                    video.play();
+                });
+            }
+            }
+            )
+       
+        </script>
+       
+</body>
+
+</html>
