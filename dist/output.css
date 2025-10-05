@@ -768,10 +768,6 @@ video {
   justify-content: space-evenly;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -855,49 +851,89 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
-.bg-white\/95 {
-  background-color: rgb(255 255 255 / 0.95);
-}
-
 .bg-yellow-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(161 98 7 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[url\(\'\.\.\/public\/image\/background\.jpg\'\)\] {
+  background-image: url('../public/image/background.jpg');
 }
 
 .bg-\[url\(\'\.\.\/image\/background\.jpg\'\)\] {
   background-image: url('../image/background.jpg');
 }
 
-.bg-\[url\(\'\.\.\/image\/\.jpg\'\)\] {
-  background-image: url('../image/.jpg');
+.bg-\[url\(\'\.\.\/pu\/image\/background\.jpg\'\)\] {
+  background-image: url('../pu/image/background.jpg');
 }
 
-.bg-\[url\(\'\.\.\/image\/radiobackground\.jpg\'\)\] {
-  background-image: url('../image/radiobackground.jpg');
+.bg-\[url\(\'\.\.\/publi\/image\/background\.jpg\'\)\] {
+  background-image: url('../publi/image/background.jpg');
 }
 
-.bg-\[url\(\'\.\.\/image\/radiobackground\.jpeg\'\)\] {
-  background-image: url('../image/radiobackground.jpeg');
+.bg-\[url\(\'\.\.\/pub\/image\/background\.jpg\'\)\] {
+  background-image: url('../pub/image/background.jpg');
 }
 
-.bg-\[url\(\'\.\.\/image\/radiobackground\.j\'\)\] {
-  background-image: url('../image/radiobackground.j');
+.bg-\[url\(\'\.\/image\/background\.jpg\'\)\] {
+  background-image: url('./image/background.jpg');
 }
 
-.bg-\[url\(\'\.\.\/image\/still-life-with-retro-radio-receiver-flower-vases\.jpg\'\)\] {
-  background-image: url('../image/still-life-with-retro-radio-receiver-flower-vases.jpg');
+.bg-\[url\(\'image\/background\.jpg\'\)\] {
+  background-image: url('image/background.jpg');
 }
 
-.bg-\[url\(\'\.\.\/ima\.jpg\'\)\] {
-  background-image: url('../ima.jpg');
+.bg-\[url\(\'\632\638image\/background\.jpg\'\)\] {
+  background-image: url('زظimage/background.jpg');
 }
 
-.bg-\[url\(\'\.\.\/imag\.jpg\'\)\] {
-  background-image: url('../imag.jpg');
+.bg-\[url\(\'\/image\/background\.jpg\'\)\] {
+  background-image: url('/image/background.jpg');
 }
 
-.bg-\[url\(\'\.\.\/image\.jpg\'\)\] {
-  background-image: url('../image.jpg');
+.bg-\[url\(\'\632\/image\/background\.jpg\'\)\] {
+  background-image: url('ز/image/background.jpg');
+}
+
+.bg-\[url\(\'\638image\/background\.jpg\'\)\] {
+  background-image: url('ظimage/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\/image\/background\.jpg\'\)\] {
+  background-image: url('..//image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/\.\.\/image\/background\.jpg\'\)\] {
+  background-image: url('../../image/background.jpg');
+}
+
+.bg-\[url\(\'\.\/\.\/image\/background\.jpg\'\)\] {
+  background-image: url('././image/background.jpg');
+}
+
+.bg-\[url\(\'pu\/image\/background\.jpg\'\)\] {
+  background-image: url('pu/image/background.jpg');
+}
+
+.bg-\[url\(\'public\/image\/background\.jpg\'\)\] {
+  background-image: url('public/image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.pu\/image\/background\.jpg\'\)\] {
+  background-image: url('..pu/image/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/public\/images\/background\.jpg\'\)\] {
+  background-image: url('../public/images/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/puimage\/background\.jpg\'\)\] {
+  background-image: url('../puimage/background.jpg');
+}
+
+.bg-\[url\(\'\.\.\/publicimage\/background\.jpg\'\)\] {
+  background-image: url('../publicimage/background.jpg');
 }
 
 .bg-cover {
